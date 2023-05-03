@@ -1,0 +1,4 @@
+@Repository
+public interface AwardRepository extends JpaRepository<Award, Long> {
+   // custom methods here
+}
